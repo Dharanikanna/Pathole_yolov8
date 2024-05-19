@@ -1,8 +1,8 @@
 task: detect
 mode: train
-model: architecture/yolov8m.yaml
+model: architecture/yolov8n.yaml
 data: config.yaml
-epochs: 1
+epochs: 10
 time: null
 patience: 100
 batch: 16

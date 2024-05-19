@@ -11,7 +11,7 @@ model = YOLO("architecture/yolov8n.yaml")    # train in nano model
 
 
 # Start training
-model.train(data="config.yaml", epochs=1, batch=3)
+model.train(data="config.yaml", epochs=100, batch=16)
 
 # Save trained model
 #model.save("Path_hole.pt")
