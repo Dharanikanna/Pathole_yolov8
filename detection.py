@@ -5,7 +5,7 @@ import os
 from ultralytics import YOLO
 from ultralytics.utils.plotting import Annotator  # ultralytics.yolo.utils.plotting is deprecated
 
-yolo_model = YOLO("D:/Workspace/Research/YoloV8/runs/detect/train2/weights/best.pt")
+yolo_model = YOLO("D:/Workspace/Research/YoloV8/runs/detect/train2_optimization_done_model_size_2MB/weights/best.pt")
 
 def detect():
     video_path = "pothole_video.mp4"
